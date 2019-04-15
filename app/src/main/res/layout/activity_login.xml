@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biruBakground"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logologin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:tint="@color/putih"
+        android:src="@drawable/ic_setting_logo_red" />
+
+    <EditText
+        android:id="@+id/etlogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:textColorHint="@color/putih"
+        android:backgroundTint="@color/putih"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logologin"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etpasword"
+        android:layout_below="@+id/etlogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/putih"
+        android:backgroundTint="@color/putih"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textColor="@color/putih"
+        android:background="@drawable/costumbutton"
+        android:layout_below="@+id/etpasword"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlogin"
+        android:text="@string/orr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/putih"/>
+
+    <Button
+        android:id="@+id/btnconnect"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvlogin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/costumbutton"
+        android:drawableLeft="@drawable/facebook2"
+        android:drawableTint="@color/putih"
+        android:paddingLeft="30dp"
+        android:paddingRight="78dp"
+        android:gravity="center"
+        android:text="@string/pasbook"
+        android:textColor="@color/putih"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtregistrasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnconnect"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/putih"/>
+
+</RelativeLayout>

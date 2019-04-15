@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biruBakground"
+    tools:context=".VeifyActivity">
+
+    <TextView
+        android:id="@+id/tv_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/ver"
+        android:textColor="@color/putih"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/send"
+        android:textColor="@color/putih"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_codehere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/putih"
+        android:textSize="20dp"
+        android:hint="enter verification code here..."
+        android:gravity="center"
+        android:backgroundTint="@color/putih"
+        android:textColorHint="@color/putih"
+        />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send"
+        android:textColor="@color/putih"
+        android:background="@drawable/costumbutton"
+        android:layout_below="@+id/et_codehere"/>
+
+
+    <TextView
+        android:id="@+id/tv_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/code"
+        android:textColor="@color/putih"
+        android:textSize="20dp" />
+
+</RelativeLayout>

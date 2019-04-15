@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Latihan2</string>
+    <string name="orr">OR</string>
+    <string name="pasbook">CONNECT WITH FACEBOOK</string>
+    <string name="register">doesn\'t have account? <b>Register</b></string>
+    <string name="user">Username</string>
+    <string name="pas">Password</string>
+    <string name="nope">Phone Number</string>
+    <string name="retype">Retype Password</string>
+    <string name="job">Job</string>
+    <string name="home">Home Address</string>
+    <string name="location">Default Location</string>
+    <string name="agree">Agree with Terms and Conditiion</string>
+    <string name="regis">Register</string>
+    <string name="almost">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more\nstep, you need to check your email\nto active your account</string>
+    <string name="ver">Verify your Account</string>
+    <string name="send">We have send verification code to your email</string>
+    <string name="code">doesn\'t get the code? <b>Resend</b></string>
+    <string name="ahmad">Alvin Satria Nugarah</string>
+    <string name="blood">Blood type : B</string>
+
+</resources>
